@@ -1,0 +1,18 @@
+{
+    "name": "user/portfolio",
+    "description": "This is a portfolio plugin",
+    "type": "project",
+    "license": "GPLv2 or Later",
+    "authors": [
+        {
+            "name": "Joy Mwende"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}
