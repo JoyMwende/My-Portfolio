@@ -27,6 +27,7 @@ get_header();
             <p><b>Technologies Used: </b></p>
             <p><?php echo $project->technology_used; ?></p>
         </section>
-        <a href="https://github.com/JoyMwende">Learn more about this project</a>
+        <a href="<?php echo $project->github_link; ?>" target="_blank">Github Link</a>
+        <?php var_dump($project->github_link); ?>
     </div>
 </div>

@@ -31,7 +31,8 @@ p, a{
     background: transparent;
     align-items: center;
     padding: 10px;
-    background-color: #F5EFF0;
+    background-color: #fcf9f9;
+    border-bottom: 2px solid rgb(211, 209, 209);
 }
 .nav-content{
     display: flex;
@@ -46,8 +47,8 @@ p, a{
 .nav-contact button{
     width: 150px;
     height: 40px;
-    background: white;
-    color: black;
+    background-color: #FE491D;
+    color: white;
     cursor: pointer;
     border: 1px solid rgb(211, 208, 208);
     border-radius: 50px;
@@ -91,21 +92,22 @@ p, a{
     align-items: center;
     padding-bottom: 2rem;
     position: relative;
+    height: 97vh;
 }
 .home{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #FE491D;
     border: none;
     border-radius: 50%;
 }
 .home-img img{
     /* width: 30vw; */
-    height: 60vh;
+    height: 62vh;
     background: transparent;
-    top: 14vh;
+    top: 22vh;
     position: absolute;
-    left: 68vw;
+    left: 66vw;
 }
 .home-content{
     width: 50vw;
@@ -181,7 +183,7 @@ p, a{
     cursor: pointer;
     background-color: #ffff;
     margin: auto;
-    box-shadow: 3px 3px 3px 3px rgb(211, 209, 209);
+    box-shadow: 3px 3px 3px 3px rgb(243, 239, 239);
 }
 .frontend:hover, .backend:hover, .framework:hover, .design:hover, .database:hover{
     background-color: #fe4a1d;
@@ -318,9 +320,11 @@ ion-icon{
     display: grid;
     grid-template-columns: repeat(3, 430px);
     flex-wrap: wrap;
-    gap: 15px;
+    row-gap: 25px;
+    column-gap: 15px;
     padding-top: 2rem;
     margin-left: 15px;
+    margin-bottom: 30px;
 }
 .projects a{
     text-decoration: none;
@@ -332,12 +336,13 @@ ion-icon{
     flex-direction: column;
     box-shadow: 3px 3px 3px 3px rgb(211, 209, 209);
     width: 30vw;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     margin: auto;
+    overflow: hidden;
 }
 .project img{
     width: 30vw;
+    overflow: hidden;
 }
 .project-header{
     padding: 10px;
@@ -372,10 +377,12 @@ ion-icon{
 .contact-page{
     background-color: #F5EFF0;
 }
-.contact-img img{
-   width: 100vw;
-   height: 50vh;
+.contact-img img {
+   height: 100%;
+   width: 100%; 
+   object-fit: cover;
 }
+
 .contactbtn{
     width: 200px;
     height: 40px;

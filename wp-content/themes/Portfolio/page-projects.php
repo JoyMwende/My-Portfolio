@@ -27,7 +27,7 @@ get_header();
                     <img src="<?php echo $project->project_image; ?>"alt="">
                 </div>
                 <div class="project-header">
-                    <p><?php echo $project->project_title; ?></p>
+                    <h4><?php echo $project->project_title; ?></h4>
                 </div>
             </article>
         </a>

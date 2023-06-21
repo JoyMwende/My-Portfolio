@@ -110,8 +110,8 @@ get_header();
         </script>
     <?php endif; ?>
 
-    <div class="contact-img w-100">
-        <img class="img-fluid" src="<?php echo $contact; ?>" alt="contact">
+    <div class="contact-img w-100" style="height: 50vh;">
+        <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkTQVVMMqp4WDGZ2yeZsHxKPGzYkVXE8GVEQ&usqp=CAU" alt="contact">
     </div>
     <div class="bg-light w-75 m-auto d-flex flex-column mt-5 p-4">
         <form action="<?php esc_url($_SERVER["REQUEST_URI"]); ?>" method="post">

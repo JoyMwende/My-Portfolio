@@ -64,23 +64,23 @@ $joy_pic = get_template_directory_uri() . "/assets/me.png"
         </div>
         <div class="skills">
             <div class="frontend">
-                <h2>Front-End Development</h2>
+                <h3>Front-End Development</h3>
                 <p>I have skills in HTML, CSS and WordPress</p>
             </div>
             <div class="backend">
-                <h2>Back-End Development</h2>
+                <h3>Back-End Development</h3>
                 <p>I have skills in PHP, Node Js, Redux, Python, Java and JavaScript</p>
             </div>
             <div class="framework">
-                <h2>Frameworks</h2>
+                <h3>Frameworks</h3>
                 <p>I have built projects with React Js, Bootstrap and Tailwind</p>
             </div>
             <div class="design">
-                <h2>Design</h2>
+                <h3>Design</h3>
                 <p>I am a web designer. I believe the appearance of a website contributes to the happiness of a client.</p>
             </div>
             <div class="database">
-                <h2>Database</h2>
+                <h3>Database</h3>
                 <p>I have used MySQL for databases. I have also used XAMPP, MySQL Server Management Studio, and Wampp databases</p>
             </div>
         </div>
