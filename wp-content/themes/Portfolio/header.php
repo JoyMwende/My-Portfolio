@@ -34,7 +34,7 @@ endif;
     <?php
         $menu = get_template_directory_uri() . "/assets/menu-small.png";
     ?>
-    <nav class="nav">
+    <nav>
         <div class="nav-title">
             <h3>JOY MWENDE</h3>
         </div>

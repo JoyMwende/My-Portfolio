@@ -8,7 +8,7 @@
  get_header();
 ?>
 
-<div class="d-flex justify-content-center align-items-center" style="background-color: #F5EFF0;">
+<div class="d-flex justify-content-center align-items-center">
     <div >
         <img src="<?php echo $me; ?>" alt="" class="rounded-circle">
     </div>
