@@ -375,6 +375,14 @@ ion-icon{
 .project-header{
     padding: 10px;
 }
+.tech p{
+    /* background-color: #f1dbd4; */
+    color: #FE491D;
+    font-weight: bold;
+    /* padding: 5px;
+    border: none;
+    border-radius: 10px; */
+}
 
 @media screen and (max-width: 768px) {
     .projects{
